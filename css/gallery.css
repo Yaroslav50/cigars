@@ -1,0 +1,107 @@
+/* Our Gallery by Yaroslav */
+.our-gallery {
+  background-image: url(../img/gal_bg_black_paper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.our-gallery__bg {
+  background-color: rgba(27, 25, 26, 0.1);
+  padding-bottom: 50px;
+  padding-top: 55px;
+}
+
+.our-gallery__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+  margin-bottom: -10px;
+}
+
+.our-gallery__header-title {
+  font-family: "BenchNine", sans-serif;
+  color: var(--title-color);
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  line-height: 38.862px;
+}
+
+.our-gallery__header-match-container {
+  margin: 25px auto 20px;
+}
+
+.our-gallery__header-match {
+  display: block;
+  max-width: 375px;
+  margin: auto;
+}
+
+.our-gallery__header_slogan {
+  color: var(--text-color);
+  font-family: "Roboto";
+  font-size: 19px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 28.5px;
+  margin-bottom: 35px;
+}
+
+.our-gallery__images {
+  width: 90%;
+  margin: 30px auto 100px auto;
+}
+
+.our-gallery__images-container {
+  width: 100%;
+  margin: auto;
+  max-height: 546px;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.our-gallery__images-unit {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .our-gallery__images-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-height: 346px;
+    max-width: 455px;
+  }
+  .our-gallery__images {
+    max-width: 1170px;
+  }
+}
+
+@media (min-width: 992px) {
+  .our-gallery__images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .our-gallery__images-container {
+    max-height: 290px;
+    max-width: 360px;
+  }
+  .our-gallery__header-title {
+    font-size: 46px;
+    vertical-align: baseline;
+    margin-bottom: 8px;
+  }
+  .our-gallery__header {
+    padding-top: 78px;
+    margin-bottom: 0;
+  }
+  .our-gallery__header_slogan {
+    max-width: 757px;
+  }
+}

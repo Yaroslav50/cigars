@@ -1,0 +1,80 @@
+.assets {
+  background-image: url(../img/assets_bg_image.png);
+  background-position: right 0 top 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-width: 360px;
+}
+
+.assets__add-bg {
+  background-color: rgba(27, 25, 26, 0.8);
+}
+
+.assets__inn-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 90px 24px;
+}
+
+.assets__inn-cont-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  margin: 15px auto;
+}
+
+.assets span {
+  display: block;
+}
+
+.assets__inn-cont-card-int {
+  color: var(--title-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  text-align: center;
+  margin: 8px;
+}
+
+.assets__inn-cont-card-txt {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: left;
+  margin: 8px;
+}
+
+@media (min-width: 768px) {
+  .assets__inn-cont {
+    flex-direction: row;
+    padding: 95px 0;
+  }
+
+  .assets__inn-cont-card {
+    flex-direction: column;
+    padding: 43px;
+  }
+
+  .assets__inn-cont-card-int {
+    padding: 20px 10px;
+  }
+
+  .assets__inn-cont-card-txt {
+    line-height: 1.5;
+    margin-bottom: auto;
+    max-width: 170px;
+  }
+}
+
+@media (min-width: 914px) {
+  .assets__inn-cont-card {
+    flex-direction: row;
+  }
+  .assets__inn-cont-card-int {
+    padding-right: 15px;
+  }
+}

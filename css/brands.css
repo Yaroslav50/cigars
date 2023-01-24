@@ -1,0 +1,187 @@
+/* Our Brands by Yaroslav */
+.our-brands img {
+  width: 100%;
+}
+
+.our-brands {
+  background-image: url(../img/brands_bg_rolling_cigar.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 46% top 20%;
+  background-attachment: fixed;
+}
+
+#our-brands__bg {
+  background-color: rgba(27, 25, 26, 0.9);
+  padding-bottom: 50px;
+  padding-top: 55px;
+}
+
+.our-brands__container {
+  padding: 0 24px;
+}
+
+.our-brands__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+  margin-bottom: -10px;
+}
+
+.our-brands__header-title {
+  font-family: "BenchNine", sans-serif;
+  color: var(--title-color);
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  line-height: 38.862px;
+}
+
+.our-brands__header-match-container {
+  margin: 25px auto 20px;
+}
+
+.our-brands__header-match {
+  display: block;
+  max-width: 375px;
+  margin: auto;
+}
+
+.our-brands__header_slogan {
+  color: var(--text-color);
+  font-family: "Roboto";
+  font-size: 19px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 28.5px;
+  margin-bottom: 35px;
+}
+
+.our-brands__list-bg {
+  background-color: rgba(33, 32, 32, 0.52);
+  padding: 29px;
+  margin: 20px 0 50px 0;
+}
+
+.our-brands__list-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-brands__list-img-container {
+  width: 100%;
+  padding: 65px 3px;
+}
+
+.our-brands__list-img {
+  display: block;
+}
+
+.our-brands__list-name {
+  font-family: "BenchNine", sans-serif;
+  color: var(--title-color);
+  margin-top: 50px;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.66px;
+}
+
+.our-brands__list-text {
+  color: var(--text-light-color);
+  margin-top: 50px;
+  font-family: "Roboto";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25.5px;
+  text-align: center;
+}
+
+#our-brands__list-img-container-cw {
+  padding: 15px 3px;
+}
+
+#our-brands__list-img-container-cb {
+  padding: 0 107px;
+}
+
+@media (min-width: 768px) {
+  #our-brands__bg {
+    padding-top: 18px;
+  }
+
+  .our-brands__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .our-brands__header-title {
+    font-size: 46px;
+    vertical-align: baseline;
+    margin-bottom: 8px;
+  }
+
+  .our-brands__header {
+    padding-top: 78px;
+    margin-bottom: 0;
+  }
+
+  .our-brands__header_slogan {
+    max-width: 757px;
+  }
+
+  .our-brands__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1170px;
+  }
+
+  .our-brands__list-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-height: fit-content;
+  }
+
+  .our-brands__list-img-container {
+    max-width: 100%+30px;
+    flex-basis: 16.66667%;
+    padding: 15px;
+  }
+
+  .our-brands__list-name {
+    font-size: 26px;
+    max-width: 100%+30px;
+    display: block;
+    text-align: center;
+    flex-basis: 16.66666%;
+    padding: 15px;
+    margin-top: 0;
+  }
+
+  .our-brands__list-text {
+    max-width: 100%+30px;
+    flex-basis: 66.66667%;
+    text-align: start;
+    padding: 15px;
+    margin-top: 0;
+  }
+
+  .our-brands__list-bg {
+    padding: 29px;
+    margin: 17px 0 15px 0;
+  }
+
+  #our-brands__list-img-container-cw {
+    padding: 0 16px;
+  }
+
+  #our-brands__list-img-container-cb {
+    padding: 0 40px;
+  }
+}
